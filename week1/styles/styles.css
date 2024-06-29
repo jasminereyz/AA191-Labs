@@ -1,16 +1,19 @@
 /* The * selects everything and acts as a global reset to ensure consistency across browsers */
 * {
     font-family:'Times New Roman', cursive, serif sans-serif;
-    .white-text{
-        color:antiquewhite
-    }
     margin: 0;
     padding: 0; 
     box-sizing: border-box; 
-    img{
-        max-width: 400px;
 
-    }
+}
+
+.white-text{
+    color:antiquewhite
+}
+
+img{
+    max-width: 400px;
+    width:400px;
 }
 
 /* Sets the overall background and ensures the content fits the screen height */
