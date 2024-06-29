@@ -35,9 +35,10 @@ body {
 
 main {
     display: grid; 
+    grid-area: main; 
     grid-template-areas:
-        "portfolio map"; 
-    grid-template-columns: 1fr 1fr; 
+    "portfolio mapcontainer"; 
+    grid-template-columns: 2fr 1fr; 
 }
 
 /* Assigns each major section to a part of the grid */
@@ -45,18 +46,26 @@ header {
     grid-area: header; 
 }
 
-main { 
-    grid-area: main; 
-}
-
 .portfolio {
     grid-area: portfolio; 
     background-color: seagreen;
+    padding:20px;
+
+}
+
+#lists{
+    margin-left: 50px;
 }
 
 #map { 
     grid-area: map; 
     height: 80vh; 
+}
+
+#mapcontainer {
+    grid-area:mapcontainer;
+    background-color: lightblue;
+   
 }
 
 footer { 
