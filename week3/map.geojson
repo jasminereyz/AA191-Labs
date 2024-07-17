@@ -1,0 +1,47 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "color": "pink",
+          "place": "Hollywood Sign"
+        },
+        "geometry": {
+          "coordinates": [
+            -118.30032227787355,
+            34.11862559241844
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "color": "green",
+          "place": "Palos Verdes Estates"
+        },
+        "geometry": {
+          "coordinates": [
+            -118.40124671960385,
+            33.78814305438509
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "color": "blue",
+          "place": "Culver City Stairs"
+        },
+        "geometry": {
+          "coordinates": [
+            -118.3818428134925,
+            34.02015615628551
+          ],
+          "type": "Point"
+        }
+      }
+    ]
+  }
